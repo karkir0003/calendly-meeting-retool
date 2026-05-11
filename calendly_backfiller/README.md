@@ -7,7 +7,7 @@ Manual Trigger
 
 ## DAG
 
-<img width="853" height="166" alt="Screenshot 2026-05-11 at 11 13 58 AM" src="https://github.com/user-attachments/assets/fe95ed4d-8dd0-46e7-a6b0-345756e0977f" />
+<img width="853" height="134" alt="Screenshot 2026-05-11 at 11 17 53 AM" src="https://github.com/user-attachments/assets/6bf99bcb-ddf9-455f-8bfd-1ecfbd967409" />
 
 
 <details>
