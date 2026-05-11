@@ -1,5 +1,7 @@
 # Calendly Meeting Tracking System
 
+Design Doc: [Here](https://www.notion.so/karthik-subramanian/Calendly-Meetings-Automated-Feedback-Workflow-11d705ac0fb7806b806fd11e2fffff77?source=copy_link)
+
 ## Problem Statement
 I currently help students looking to break into software engineering by making time available for 1:1 conversations with me. Currently, students can schedule 1:1 consulting and mock technical interview sessions through my dedicated Calendly link. As the number of meetings grew, I lacked observability of a holistic overview of my meetings. Feedback is really important to me as I can help better serve future students who schedule 1:1 time with me.
 
