@@ -4,7 +4,7 @@ Retool Email Operation for auto sending feedback form emails:
 LOOP Function:
     * Input: `~/feedback_form_autoemailer/prepareEmailContents.js`
     ```
-    - parameters: event id
+    - event id
     - recipient
     - subject
     - body
