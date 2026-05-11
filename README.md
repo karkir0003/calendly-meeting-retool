@@ -23,16 +23,16 @@ We can use Retool Workflows to build the automated workflow. Retool Workflows pr
 
 See rough architecture below:
 
-![image.png](attachment:f5c7c909-271a-46d2-a7a6-c0fa5e792a22:image.png)
+<img width="1390" height="775" alt="image (1)" src="https://github.com/user-attachments/assets/cdbc41a2-590b-427f-a2ca-fe98c33bcb3f" />
 
-Rought Diagram of the Feedback Form
 
 ### Feedback Form
 Use Retool Forms to create the feedback form
 
 See rough Architecture below:
 
-![image.png](attachment:f8570fce-0a12-4bf0-a75b-236546c48d86:image.png)
+<img width="1443" height="625" alt="image (2)" src="https://github.com/user-attachments/assets/a0d446c2-492b-4051-8af3-3b18bfdc0a64" />
+
 
 ### Analytics Portal
 Create Retool App to build the analytics portal which contains aggregate breakdown of the meetings with Summarize button to give an overview of my meetings
