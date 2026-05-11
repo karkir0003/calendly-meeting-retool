@@ -58,7 +58,7 @@ This workflow runs on a daily basis
 ### Calendly Backfiller
 In the event that `calendly_ingestor` fails its daily run, `calendly_backfiller` can scrape the calendly API from the earliest calendly meeting to now (no last 30 day window) and upsert any data that's not present in `calendly_meetings`. The `feedback_form_autoemailer` daily workflow run would send feedback form emails to the invitees of the backfilled meetings.
 
-This is a manually triggered workflow in case we suspect any missing data.
+This is a manually triggered workflow in case we suspect any missing data. See `calendly_backfiller/` for the code
 
 ### Feedback Form
 Use Retool Forms to create the feedback form and pipe responses to `feedback_form_responses` table
