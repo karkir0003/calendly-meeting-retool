@@ -21,10 +21,21 @@ We can use Retool Workflows to build the automated workflow. Retool Workflows pr
 - Extract the attendee email from the meeting data
 - Send an email notification to those accounts to request feedback via the Google Form
 
+See rough architecture below:
+
+![image.png](attachment:f5c7c909-271a-46d2-a7a6-c0fa5e792a22:image.png)
+
+Rought Diagram of the Feedback Form
+
 ### Feedback Form
 Use Retool Forms to create the feedback form
+
+See rough Architecture below:
+
+![image.png](attachment:f8570fce-0a12-4bf0-a75b-236546c48d86:image.png)
 
 ### Analytics Portal
 Create Retool App to build the analytics portal which contains aggregate breakdown of the meetings with Summarize button to give an overview of my meetings
 
-
+### Storage Layer
+Create Retool Database to store past Calendly meetings and feedback form responses. This database is managed postgres table under the hood
