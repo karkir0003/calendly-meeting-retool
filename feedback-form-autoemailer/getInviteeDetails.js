@@ -2,6 +2,7 @@ const allEventsData = getEventIds.data;
 
 const allInviteeDetails = [];
 
+// In Retool workflow function block
 async function getEventInvitees(eventId) {
   const response = await fetch(`https://api.calendly.com/scheduled_events/${eventId}/invitees`);
   if (!response.ok) {
@@ -11,6 +12,7 @@ async function getEventInvitees(eventId) {
   return data;
 }
 
+// Retool Workflow Step itself
 for (const eventId in allEventsData) {
   const response = await getEventInvitees(eventId);
   const inviteeData = response.data.collection[0]; //assume all meetings are 1:1
