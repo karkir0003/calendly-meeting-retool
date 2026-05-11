@@ -18,7 +18,7 @@ Manual Trigger
     %% Node Definitions
     Start([⚡ startTrigger]) 
     Window{{js timeWindow}}
-    Events(query getActiveEvents)
+    Events(query getHistoricalCalendlyEvents)
     IDs{{js getEventIds}}
     Invitee(query getInviteeDetails)
     Aggregate{{js aggregateCalendlyMeetings}}
